@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ],
+      "@stores/*": [
+        "./stores/*"
+      ],
+      "@protocols/*": [
+        "./protocols/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@contracts/*": [
+        "./contracts/*"
+      ],
+      "@assets/*": [
+        "../assets/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "index.js",
+    "App.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "android/app/build",
+    "ios/build"
+  ]
+}
